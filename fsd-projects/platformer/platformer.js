@@ -27,24 +27,31 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-    // toggleGrid();
-
+    toggleGrid();
 
     // TODO 2 - Create Platforms
+    createPlatform(0, 550, 100, 20); // bottom left corner
+    createPlatform(300, 400, 150, 20); // mid left
+    createPlatform(600, 300, 200, 20); // mid right
+    createPlatform(900, 200, 150, 20); // high platform
+    createPlatform(1200, 100, 100, 20); // top right
 
+    // TODO 3 - Add Collectables
+    createCollectable("diamond", 350, 370); // near middle platform
+    createCollectable("steve", 650, 270); // on higher platform
+    createCollectable("max", 1250, 70); // near top platform
 
+    // TODO 4 - Add Cannons
+    createCannon("left", 500, 2000); // left side, firing right
+    createCannon("top", 800, 1500); // top side, firing down
+    createCannon("right", 1300, 2500); // right side, firing left
 
+    // TODO 5 - Make your level challenging!
+    // Ensure the level is playable, with accessible collectables, platforms at varying heights, and strategic cannons.
 
-    // TODO 3 - Create Collectables
+    // TODO 6 - Disable grid after building
+    // toggleGrid(); // comment this out after building your level
 
-
-
-    
-    // TODO 4 - Create Cannons
-
-
-    
-    
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
