@@ -27,7 +27,7 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-    toggleGrid();
+    toggleGrid(); // change so that it registers i screwed up the commit
 
     // TODO 2 - Create Platforms
     createPlatform(0, 550, 100, 20); // bottom left corner
